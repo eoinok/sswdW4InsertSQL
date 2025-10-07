@@ -6,6 +6,8 @@ Open another command prompt window to run the web server. cd into your repo fold
 
 ***PHP -S localhost:8000 -t ./***
 
+Leave this window open as it will be running the webserver. The other command window is where you can issue your git commands.
+
 # Part 1
 Open mysql and connect to the database using the credentials.
 
@@ -16,7 +18,7 @@ port: 3306
 Use the sql script in the file CreateDatabase.sql to create the database for this exercise. This is a simple database called tennisclub which will include three tables, Members, |Courts and Bookings along with some test data.
 Create a new SQL query window, type ***Select * from Member;*** and execute the query by pressing the "play/execute" button. You should see a list of six members of the tennisclub.
 
-Once the script has been executed and the database has been created, modify the credentials in the insertSQLData.php script so that the correct credentials are used to connect to the database. Execute the PHP script in insertSQLData.php by visiting http://localhost/week4Lab-yourGithubID/insertSQLData.php. If the credentials are correct a new Member called John Doe should have been inserted as a Member of the tennisclub.
+Once the script has been executed and the database has been created, modify the credentials in the insertSQLData.php script so that the correct credentials are used to connect to the database. Make sure the database name has been updated to reflect the database name you have just created "tennisclub". Execute the PHP script in insertSQLData.php by visiting http://localhost/week4Lab-yourGithubID/insertSQLData.php. If the credentials are correct a new Member called John Doe should have been inserted as a Member of the tennisclub.
 
 Once you get this working, commit your code with a good meaningful message and push your code into your repo.
 
