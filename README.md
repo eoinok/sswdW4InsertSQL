@@ -6,6 +6,8 @@ Open another command prompt window to run the web server. cd into your repo fold
 
 ***PHP -S localhost:8000 -t ./***
 
+Leave this window open as it will be running the webserver. The other command window is where you can issue your git commands.
+
 # Part 1
 Open mysql and connect to the database using the credentials.
 
@@ -16,7 +18,7 @@ port: 3306
 Use the sql script in the file CreateDatabase.sql to create the database for this exercise. This is a simple database called tennisclub which will include three tables, Members, |Courts and Bookings along with some test data.
 Create a new SQL query window, type ***Select * from Member;*** and execute the query by pressing the "play/execute" button. You should see a list of six members of the tennisclub.
 
-Once the script has been executed and the database has been created, modify the credentials in the insertSQLData.php script so that the correct credentials are used to connect to the database. Execute the PHP script in insertSQLData.php by visiting http://localhost/week4Lab-yourGithubID/insertSQLData.php. If the credentials are correct a new Member called John Doe should have been inserted as a Member of the tennisclub.
+Once the script has been executed and the database has been created, modify the credentials in the insertSQLData.php script so that the correct credentials are used to connect to the database. Make sure the database name has been updated to reflect the database name you have just created "tennisclub". Execute the PHP script in insertSQLData.php by visiting http://localhost/week4Lab-yourGithubID/insertSQLData.php. If the credentials are correct a new Member called John Doe should have been inserted as a Member of the tennisclub.
 
 Once you get this working, commit your code with a good meaningful message and push your code into your repo.
 
@@ -33,7 +35,7 @@ Once you get this working, commit your code with a good meaningful message and p
 Create a PHP file called Part3.php which contains all the code from insertSQLData.php. To add this file to your repo type ***git add .*** and then push your file by typing ***git commit -am 'added Part3.php'*** 
 Look up the Database section under PHP on the w3schools website. On the left bar, scroll down to the MySQL Data section and find the MySQL Select Data example. Make sure you scroll passed the MySQL Object Oriented version of the example to the MySQLi-Procedural version of the example. Take the relevant code from the example (i.e. the SQL query, the command that executes the query and the while loop that outputs the results) and paste this code into your Part3.php file at the appropriate point - i.e. replace the "insert into" aspects of that code reflecting the fact that you will now be pulling data from the db rather than inserting it. You will need to modify the SQL select query and the associative array variables to reflect slightly different column names in the Member table of your database.
 
-Test your code by visiting http://localhost/week4Lab-yourGithubID/Part3.php. The code should show members of the database displayed on the screen in list form separated by commas.
+Test your code by visiting http://localhost/sswdw4Lab-yourGithubID/Part3.php. The code should show members of the database displayed on the screen in list form separated by commas.
 
 Once you get this working, commit your code with a good meaningful message and push your code into your repo.
 
