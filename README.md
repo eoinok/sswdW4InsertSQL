@@ -1,6 +1,6 @@
 "# insertSQLDataPHP"
 
-Clone this repo into your documents folder. In the command prompt cd into the repo folder. Make sure that you are "in" the correct folder and that appears in the command prompt. Type ***git clone your-repo-url*** (Get your repo url from github after creating the repo). Then cd into the folder you have just cloned by typing ***cd sswdW4InsertSQL-yourgithubid***. Once you are in the correct folder, keep this command window open so you can type in your git commands as required.
+Clone this repo into your documents folder. In the command prompt cd into the repo folder. Make sure that you are "in" the correct folder and that appears in the command prompt. Type ***git clone your-repo-url*** (Get your repo url from github after creating the repo). Then cd into the folder you have just cloned by typing ***cd sswdW4lab-yourgithubid***. Once you are in the correct folder, keep this command window open so you can type in your git commands as required.
 
 Open another command prompt window to run the web server. cd into your repo folder so that the folder name shows in the prompt. Make sure you are "in" your repo folder before running the command to start the webserver.
 
